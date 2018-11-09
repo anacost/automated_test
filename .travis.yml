@@ -22,7 +22,7 @@ install:
 #  - pip install pep8
 
 script:
-  - "pytest -vv example.py"
+  - "py.test -vv example.py"
 #  - pep8 example.py
 #  - if [[ $TRAVIS_PYTHON_VERSION == 2.6 ]];
 #    then py.test -vv example.py --cov example.py;
