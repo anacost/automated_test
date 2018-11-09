@@ -28,7 +28,8 @@ script:
 #    else py.test -vv example.py;
 #    fi
 
-#after_success:
+after_success:
+  - coveralls
 #  - if [[ $TRAVIS_PYTHON_VERSION == 2.6 ]];
 #    then coveralls;
 #    fi
