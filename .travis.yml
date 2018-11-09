@@ -20,7 +20,8 @@ install:
 #  - pip install pep8
 
 script:
-  - "py.test -vv example.py"
+  - py.test -vv example.py
+  - python -m coverage run example.py
 #  - pep8 example.py
 #  - if [[ $TRAVIS_PYTHON_VERSION == 2.6 ]];
 #    then py.test -vv example.py --cov example.py;
