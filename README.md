@@ -1,2 +1,2 @@
 # automated_test
-study group automated testing
+study group automated testing with travis
